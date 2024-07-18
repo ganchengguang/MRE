@@ -1,8 +1,8 @@
 # Mutual Reinforcement Effect
-# Universal Sentiment Analysis (USA Model)
-# General Information Extraction Large Language Model (GIELLM)
-# Open-domain Information Extraction Large Language Model (OIELLM)
-# MMM: Multilingual Mutual Reinforcement Effect Mix Datasets
+## Universal Sentiment Analysis (USA Model)
+## General Information Extraction Large Language Model (GIELLM)
+## Open-domain Information Extraction Large Language Model (OIELLM)
+## MMM: Multilingual Mutual Reinforcement Effect Mix Datasets
 
 
 Model and Dataset. You can find in HuggingFace[https://huggingface.co/ganchengguang/OIELLM-8B-Instruction].
