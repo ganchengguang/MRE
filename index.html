@@ -235,105 +235,44 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+
+
+      <!-- MRE Figure -->
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            The Mutual Reinforcement Effect between the labels of Word-level labels and text-level label within a same text.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
+          <img src="https://cdn-uploads.huggingface.co/production/uploads/629311a945f405d06678224b/uMVLb9KVjDVRnS1zPzc_e.png" alt="Scene Image" style="width: 80%;">
         </div>
       </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
+      <!--/ MRE Figure -->
+      
+      <!-- OIELLM Figure -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
+        <div class="content">
+          <h2 class="title is-3">Visual Effects</h2>
+          <p>
+            The input and output of Open-domain Information Extraction Large Language Model (OIELLM).
+          </p>
+          <img src="https://cdn-uploads.huggingface.co/production/uploads/629311a945f405d06678224b/9zG-y_-YbPx-z2woGCx-8.png" alt="Scene Image" style="width: 80%;">
         </div>
       </div>
-    </div>
-    <!--/ Matting. -->
+      <!--/ OIELLM Figure -->
 
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
+      <!-- MMM Figure -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Visual Effects</h2>
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            Multilingual Mutual Reinforcement Effect Mix Datasets Names of all sub-datasets. 
+            (The image does not represent a percentage of the actual subdataset size.)
           </p>
+          <img src="https://cdn-uploads.huggingface.co/production/uploads/629311a945f405d06678224b/oMIVfgD1XQQBUP2JA601J.png" alt="Scene Image" style="width: 80%;">
         </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
       </div>
-    </div>
-    <!--/ Animation. -->
+      <!--/ MMM Figure -->
 
 
     <!-- Concurrent Work. -->
