@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- <?xml version="1.0" encoding="iso-8859-1"?> -->
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<!-- <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" -->
+<!-- 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="138px" height="137px" viewBox="-0.5 -0.5 138 137"><defs/><g><rect x="0" y="0" width="136" height="136" fill="none" stroke="rgb(0, 0, 0)" pointer-events="all"/><path d="M 45.5 10.5 L 90.5 38.5 L 45.5 66.5 Z" fill="#cce5ff" stroke="#36393d" stroke-miterlimit="10" transform="rotate(90,68,38.5)" pointer-events="all"/><path d="M 38 51 L 98 91 L 38 131 Z" fill="#ffcccc" stroke="#36393d" stroke-miterlimit="10" transform="rotate(-90,68,91)" pointer-events="all"/><path d="M 16.22 26.49 L 26.22 26.51 L 26.05 91.01 L 36.55 91.04 L 21 110 L 5.55 90.96 L 16.05 90.99 Z" fill="#dae8fc" stroke="#6c8ebf" stroke-miterlimit="10" pointer-events="all"/><path d="M 119 109.76 L 109 109.74 L 109.17 45.24 L 98.67 45.21 L 114.22 26.25 L 129.67 45.29 L 119.17 45.26 Z" fill="#f8cecc" stroke="#b85450" stroke-miterlimit="10" pointer-events="all"/></g></svg>
+
+
 <circle style="fill:#FFDA44;" cx="256" cy="256" r="256"/>
 <path style="fill:#338AF3;" d="M0,256C0,114.616,114.616,0,256,0s256,114.616,256,256"/>
 <g>
