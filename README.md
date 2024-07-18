@@ -10,7 +10,7 @@ Model and Dataset. You can find in HuggingFace[https://huggingface.co/ganchenggu
 This is train and evaluation code.
 
 
-# Under construction, not yet completed.
+# The project's website under construction, not yet completed. You can try dataset and model first please.
 
 
 
