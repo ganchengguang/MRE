@@ -13,6 +13,18 @@ This is train and evaluation code.
 # The project's website under construction, not yet completed. You can try dataset and model first please.
 
 
+**Let me conclude by thanking the contributors to the MMM dataset for contributing the fundamental dataset. And the pioneering researchers who selflessly contributed.**
+
+**1. Japanese Wikipedia NER dataset    Takahiro Omi  https://github.com/stockmarkteam/ner-wikipedia-dataset**
+
+**2. JGLUE: Japanese General Language Understanding Evaluation    Kentaro Kurihara, Daisuke Kawahara, Tomohide Shibata   https://github.com/yahoojapan/JGLUE?tab=readme-ov-file**
+
+**3. livedoor news corpus   関口宏司  https://www.rondhuit.com/download.html**
+
+**4. UniversalNER    Wenxuan Zhou   https://arxiv.org/abs/2308.03279**
+
+
+
 
 This webpage fork from https://github.com/nerfies/nerfies.github.io. Thank for they contribution.
 ```
