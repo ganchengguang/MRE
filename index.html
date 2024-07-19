@@ -66,9 +66,21 @@
       margin-bottom: 1rem;
     }
 
+    .embed-50 {
+      height: 50vh;
+    }
+
+    .embed-30 {
+      height: 30vh;
+    }
+
+    .embed-70 {
+      height: 70vh;
+    }
+
     embed {
       width: 100%;
-      height: calc(100% - 4rem); /* Adjust height considering other content */
+      height: 100%;
       box-sizing: border-box;
     }
   </style>
@@ -284,7 +296,7 @@
 
       <!-- MRE Figure -->
       <div class="column">
-        <div class="content">
+        <div class="content embed-50">
           <h2 class="title is-3">Mutual Reinforcement Effect</h2>
           <p>
             The Mutual Reinforcement Effect between the labels of Word-level labels and text-level label within a same text.
@@ -297,7 +309,7 @@
       
       <!-- OIELLM Figure -->
       <div class="column">
-        <div class="content">
+        <div class="content embed-30">
           <h2 class="title is-3">OIELLM</h2>
           <p>
             The input and output of Open-domain Information Extraction Large Language Model (OIELLM).
@@ -309,7 +321,7 @@
 
       <!-- MMM Figure -->
       <div class="column">
-        <div class="content">
+        <div class="content embed-70">
           <h2 class="title is-3">MMM Datasets</h2>
           <p>
             Multilingual Mutual Reinforcement Effect Mix Datasets Names of all sub-datasets. 
