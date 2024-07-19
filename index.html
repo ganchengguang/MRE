@@ -39,7 +39,57 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+
+
+  <style>
+    body {
+      font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content {
+      width: 100%;
+      height: 100vh; /* Adjust height to occupy full viewport height */
+      box-sizing: border-box;
+    }
+
+    .title {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    embed {
+      width: 100%;
+      height: calc(100% - 4rem); /* Adjust height considering other content */
+      box-sizing: border-box;
+    }
+  </style>
+
+
+
+
+
+
+
+
+
 </head>
+
+
+
+
+
+
+
+
 <body>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -234,15 +284,14 @@
 
       <!-- MRE Figure -->
       <div class="column">
-          <div class="content">
-              <h2 class="title is-3">Mutual Reinforcement Effect</h2>
-              <p>
-                  The Mutual Reinforcement Effect between the labels of Word-level labels and text-level label within a same text.
-              </p>
-              <embed src="./static/1MRE.pdf" type="application/pdf" width="100%" height="100%" />
-          </div>
+        <div class="content">
+          <h2 class="title is-3">Mutual Reinforcement Effect</h2>
+          <p>
+            The Mutual Reinforcement Effect between the labels of Word-level labels and text-level label within a same text.
+          </p>
+          <embed src="./static/1MRE.pdf" type="application/pdf" width="100%" height="100%" />
+        </div>
       </div>
-
       
       <!--/ MRE Figure -->
       
